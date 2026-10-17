@@ -137,6 +137,7 @@ nav {
 }
 
 .hero {
+    background-color: #FAF6EE; /* Golden white / warm cream */
     max-width: 800px;
     padding: 2rem;
 }
@@ -144,19 +145,20 @@ nav {
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #222; /* ጽሁፉ እንዲታይ ጥቁር ቀለም እናድርገው */
+    text-shadow: none; /* አቮካል ከፈለጉ Shadow-ውን ማጥፋት ይችላሉ */
 }
 
 .hero h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #ecf0f1;
+    color: #444; /* ከሰማያዊ ወደ ጥቁር/ግራጫ መቀየር */
 }
 
 .hero p {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #ecf0f1;
+    color: #555; /* ከሰማያዊ ወደ ጥቁር/ግራጫ መቀየር */
 }
 
 /* Buttons */
